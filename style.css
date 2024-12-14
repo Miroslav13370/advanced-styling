@@ -1,0 +1,145 @@
+@font-face {
+    font-family:"TTLakes";
+    font-weight: 700;
+    src: url(TTLakes-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"TTLakes";
+    font-weight: 400;
+    src: url(TTLakes-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {    
+    font-family:"TTLakes";
+    font-weight: 500;
+    src: url(TTLakes-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "TTLakes";
+    color: #1B1C21;
+    font-weight: 500;
+}
+
+.box{
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 40px;
+    height: auto;
+}
+
+.logo{
+    width: 97px
+}
+
+.background{
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu{
+display: flex;
+flex-direction: column;
+position: absolute;
+z-index: 2;
+background-color: white;
+min-width: 320px;
+
+height: 100vh;
+box-shadow: -2px 0px 4px 0 #454f7e14, 16px 0 52px 0 #0e18503a;
+padding: 20px;
+
+justify-content: space-between;
+box-sizing: border-box;
+}
+
+.center-section{
+    margin-bottom: auto;
+    margin-top: 15px;
+
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.center-section_element{
+    display: block;
+    margin-top: 35px;
+    font-weight: 500;
+    color: #1B1C21;
+}
+
+.repair::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    background-color: #41F6D7;
+    margin-left: -25px;
+    margin-top: -11px;
+    border-radius: 5px;
+}
+
+.repair{
+    color: #7E7E82
+}
+
+.number{
+    font-size: 24px;
+    font-weight: 700;
+}
+.bottom-section_element{
+    margin-right: 15px;
+}
+
+.bottom-bottom_element{
+    display: block;
+}
+
+.number{
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+
+.bottom-bottom span{
+    color: #7E7E82;
+}
+
+.center-section_element, .bottom-section_element, .top-section_element{
+    transition: opacity 0.3s ;
+
+}
+
+p:hover{
+    opacity: 0.5;
+
+}
+
+img:hover{
+    opacity: 0.5;
+
+}
